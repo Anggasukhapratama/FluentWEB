@@ -27,7 +27,7 @@ export default function InterviewPage() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const recognitionRef = useRef<any>(null);
   const faceMeshRef = useRef<any>(null);
   const eyeTrackerRef = useRef(new EyeContactTracker());
   const headTrackerRef = useRef(new HeadStabilityTracker());

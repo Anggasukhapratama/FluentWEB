@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { AuthProvider } from "@/hooks/useAuth";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "FluentWEB — AI Interview Coach",
   description: "Latih kemampuan wawancara kerjamu dengan AI. Analisis kelancaran bicara, kontak mata, dan ekspresi wajah secara real-time.",
